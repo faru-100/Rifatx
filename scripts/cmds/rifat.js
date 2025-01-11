@@ -14,8 +14,8 @@ module.exports = {
  onChat: async function({ event, message, getLang }) {
  if (event.body && event.body.toLowerCase() === "tamim") {
  return message.reply({
- body: " 「❥︎----ღ᭄_ʜᴇʏ ..\n❥︎----ღ᭄_  ᴮᴿᴼᵀᴴᴱᴿ❞࿐.♡.\nᥫᩣ ɪᴛ’s ᴛᴀᴍɪᴍ\n\n𝐁𝐎𝐓𝐎𝐖𝐍𝐄𝐑\n𝐈𝐓'𝐒 𝐓𝐀𝐌𝐈𝐌」",
- attachment: await global.utils.getStreamFromURL("https://i.imgur.com/MWM9Tqr.mp4")
+ body: " 「❥︎----ღ᭄_ʜᴇʏ ..\n❥︎----ღ᭄_  ᴮᴿᴼᵀᴴᴱᴿ❞࿐.♡.\nᥫᩣ 𓆩Īⱦ'ꞩ Ꞧīӻⱥⱦ𓆪\n\n𝐁𝐎𝐓𝐎𝐖𝐍𝐄𝐑\n𝗥𝗔𝗙𝗜𝗬𝗔𝗡 𝗥𝗜𝗙𝗔𝗧」",
+ attachment: await global.utils.getStreamFromURL("https://i.imgur.com/avlHVei.mp4")
  });
  }
  }
